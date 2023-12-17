@@ -1,0 +1,212 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    background-color: red;
+}
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px!important;
+    color: #fff!important;
+}
+.top-nav ul {
+    display: flex;
+}
+.top-nav ul li {
+    padding: 0 10px;
+}
+.top-nav ul li a {
+    color: #fff;
+}
+.showMoreOnApp{
+    background-color: rgba(0,0,0,.3);
+   border-radius: 0 0 8px 8px;
+   padding: 2px;
+   display: flex;
+   align-items: center;
+    cursor: pointer;
+}
+.showMoreOnApp img {
+    width: 20px;
+    height: auto;
+    margin: 2px 3px 2px 2px;
+}
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-nav .logo img{
+    height: 48px;
+}
+.search-box {
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+.search-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.search-box i {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: #ffe1d2;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.search-box i:hover{
+    background-color: #fdd1bb;
+}
+.logInContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logInContainer a {
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 12px;
+    transition: .3s ease-in-out;
+}
+.logInContainer a:hover{
+    background: rgb(226, 1, 1);   
+}
+.logInContainer a:last-child:hover{
+    transform: translate(5px);
+    background: none;
+    color: #fff;
+}
+.logInContainer a i:first-child{
+    padding: 5px;
+}
+.logInContainer a:last-child{
+    font-size: 30px;
+}
+#sectionOne{
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+}
+.leftSideNav{
+    flex-basis: 20%;
+    width: 100%;
+    border-radius: 20px;
+    background: #d3ffe4;
+    margin-right: 20px;
+    padding: 20px;
+    border:1px solid #a5ffc7;
+}
+.leftSideNav a {
+    font-size: 12px;
+    color: #003616;
+    letter-spacing: 0.4px;
+    line-height: 1.4;
+}
+.rightSideAd{
+    flex-basis: 80%;
+    width: 100%;
+    cursor: pointer;
+}
+.rightSideAd img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 1100px) {
+    .search-box {
+        width: 50%;
+    }
+    .logInContainer a{
+        margin: 5px;
+        padding: 0;
+    }
+} */
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+#bg {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/016/866/610/large/laiba-chaudhary-1.jpg?1553768116&dl=1);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.square {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card h1:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+}
+.card h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: aqua;
+    font-family: poppins;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.card h1:last-child{
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px;
+    margin: 10px;
+    color: cornflowerblue;
+    font-family: poppins;
+}
