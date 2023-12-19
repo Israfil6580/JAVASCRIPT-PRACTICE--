@@ -216,3 +216,6 @@ body {
 h1{
     display: none;
 }
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
