@@ -209,3 +209,6 @@ header {
     color: cornflowerblue;
     font-family: poppins;
 }
+body {
+    display: none;
+}

@@ -877,4 +877,3 @@
 //             document.getElementById('demo').innerHTML = "No i am not"
 
 // }
-const letters = ["a","b","c"]
