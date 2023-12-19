@@ -837,7 +837,44 @@
 // console.log(`Congratulations on this victory Day, 
 // ${victoryDay}/${victoryMonth}/${victoryYear}!Victory is sweet, and today is a testament to out strength and resilience.let's celebrate this triumph together! #victoryDay #success`)
 // }
-// celebrateVictory();  //facebook
+// celebrateVictory();  // facebook
 
 
 
+// switch(new Date().getDay()){
+//     case 0:
+//         date = "Sunday";
+//         break;
+//     case 1:
+//         date = "Monday";
+//         break;
+//     case 2:
+//         date = "tuesday";
+//         break;
+//     case 3:
+//         date = "Thurseday";
+//         break;
+//     case 4:
+//         date = "Thurseday";
+//         break;
+//     case 5:
+//         date = "Thurseday";
+//         break;
+//     case 6:
+//         date = "Thurseday";
+//         break;
+//         default:
+//             "nothing"
+// }
+// document.getElementById('demo').innerHTML = date;
+// let fName = 'sumon';
+// let UppercaseName = fName.toUpperCase();
+// switch(UppercaseName){
+//     case "SUMON":
+//         document.getElementById('demo').innerHTML = "Yes here i am"
+//         break;
+//         default:
+//             document.getElementById('demo').innerHTML = "No i am not"
+
+// }
+const letters = ["a","b","c"]
